@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-testcasepostgres" insertBefore="administration" caption="mainMsg://menu_config.application-testcasepostgres">
+        <item screen="testcasepostgres_Request.browse" caption="mainMsg://menu_config.testcasepostgres_Request.browse"/>
+        <item screen="testcasepostgres_Customer.browse"
+              caption="mainMsg://menu_config.testcasepostgres_Customer.browse"/>
+        <item screen="testcasepostgres_Product.browse" caption="mainMsg://menu_config.testcasepostgres_Product.browse"/>
+        <item screen="testcasepostgres_Supplier.browse"
+              caption="mainMsg://menu_config.testcasepostgres_Supplier.browse"/>
+    </menu>
+</menu-config>
